@@ -3,7 +3,7 @@ PREFIX : <http://example.org/>
 :w-g-sebald a :Author ;
   :given_name "Winfried Georg" ;
   :surname "Sebald" ;
-  :authored :die-ringe-des-saturn , :austerlitz .
+  :authored :die-ringe-des-saturn , :austerlitz , :die-ausgewanderten .
 
 :m-r-mcculloh a :Author ;
   :given_name "Mark Richard" ;
@@ -17,6 +17,10 @@ PREFIX : <http://example.org/>
 :austerlitz a :Book ;
   :title "Austerlitz" ;
   :pages 416 .
+
+:die-ausgewanderten a :Book ;
+  :title "Die Ausgewanderten" ;
+  :pages 354 .
 
 :understanding-w-g-sebald a :Book ;
   :title "Understanding W.G. Sebald" ;
